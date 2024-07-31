@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        N133_CloneGraph solution = new N133_CloneGraph();
+        N46_Permutations solution = new N46_Permutations();
 
         solution.test();
     }
