@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class N133_CloneGraph {
+public class N133_CloneGraph implements Solution{
 
     private class Node {
         public int val;
@@ -21,6 +21,7 @@ public class N133_CloneGraph {
 
     private Node root = new Node(1);
 
+    @Override
     public void test(){
 
         Node node2 = new Node(2);

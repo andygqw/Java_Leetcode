@@ -2,11 +2,12 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class N46_Permutations {
+public class N46_Permutations implements Solution{
 
 
     private int[] TestCase = new int[] { 1, 2, 3 };
 
+    @Override
     public void test() {
 
         List<List<Integer>> answer = permute(TestCase);

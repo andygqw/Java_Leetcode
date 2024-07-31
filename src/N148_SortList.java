@@ -1,5 +1,6 @@
-public class N148_SortList {
+public class N148_SortList implements Solution{
 
+    @Override
     public void test() {
 
         ListNode node4 = new ListNode(3);

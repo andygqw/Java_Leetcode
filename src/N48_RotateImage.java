@@ -1,10 +1,11 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class N48_RotateImage {
+public class N48_RotateImage implements Solution{
 
     private List<int [][]> TestCase = new ArrayList<>();
 
+    @Override
     public void test (){
 
         TestCase.add(new int[][]{{1,2,3},{4,5,6},{7,8,9}});
