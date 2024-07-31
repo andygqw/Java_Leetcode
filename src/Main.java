@@ -1,10 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("Hello world!");
 
-        N48_RotateImage test = new N48_RotateImage();
+        N133_CloneGraph solution = new N133_CloneGraph();
 
-        test.test();
+        solution.test();
     }
 }
