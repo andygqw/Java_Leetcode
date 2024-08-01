@@ -18,10 +18,37 @@ public class N148_SortList implements Solution{
 
     private ListNode sortList(ListNode head) {
 
+        if(head == null || head.next == null) return head;
 
 
 
 
         return head;
+    }
+
+
+    private ListNode recur(ListNode left, ListNode right) {
+
+        ListNode dummy = new ListNode(0);
+        ListNode ptr = dummy;
+
+        while (left != null && right != null) {
+
+            if (left.val < right.val) {
+
+                ptr.next = left;
+                ptr = left;
+                left = left.next;
+            }
+            else {
+
+                ptr.next = right;
+                ptr = right;
+                right = right.next;
+            }
+        }
+
+        ptr.next = left == null ? right : left;
+        return dummy.next;
     }
 }
