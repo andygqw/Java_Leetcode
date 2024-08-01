@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        Solution solution = new N148_SortList();
+        Solution solution = new PlayGround();
 
         solution.test();
     }

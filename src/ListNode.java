@@ -5,6 +5,12 @@ public class ListNode {
     ListNode() {
     }
 
+    ListNode(ListNode node){
+
+        this.val = node.val;
+        this.next = node.next;
+    }
+
     ListNode(int val) {
         this.val = val;
     }
