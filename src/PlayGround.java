@@ -32,5 +32,7 @@ public class PlayGround implements Solution{
 
         System.out.println(p1.test(str));
         System.out.println(p2.test(str));
+
+        System.out.println(str.charAt(0));
     }
 }
