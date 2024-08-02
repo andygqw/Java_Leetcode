@@ -1,5 +1,6 @@
 import java.util.Scanner;
 import java.util.function.Consumer;
+import java.util.function.Function;
 import java.util.function.Predicate;
 
 public class PlayGround implements Solution{
@@ -32,6 +33,10 @@ public class PlayGround implements Solution{
 
         System.out.println(p1.test(str));
         System.out.println(p2.test(str));
+
+        Function<String, Integer> func = s -> Integer.parseInt(s);
+
+        System.out.println(func.apply("1234"));
 
         System.out.println(str.charAt(0));
     }
